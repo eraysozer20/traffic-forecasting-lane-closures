@@ -1,0 +1,39 @@
+# Data, models and results (too large for GitHub)
+/rescal/data/
+/data_pipeline/data/
+/data_pipeline/pems_data_final/
+save/
+result/
+results/
+logs/
+outputs/
+*.h5
+*.csv
+*.xlsx
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.npz
+*.npy
+*.osm
+*.pbf
+*.xml
+*.osrm*
+*.gz
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env

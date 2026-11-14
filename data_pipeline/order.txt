@@ -1,0 +1,10 @@
+1- create_DESPT_input.py -> input: both, speed csv and closure csv, output: speed h5 and closure h5
+2- find_unseen_window.py -> input: change file path for district and duration, output: window start
+3- cut_save_data.py -> input: output from last step, output: cut h5 files with duration
+4- h5_2_csv.py -> input: closure_cut.h5 & speed_cut.h5, output: closure_cut.csv & speed_cut.csv
+5- fetch_station_latlon.py
+6- build_osrm_adj.py
+7- build_STGCN_input.py -> input: , output: adj_1_miles.csv, adj_1.csv, adj.csv
+8- copy & paste -> copy from -> despt_inputs/pemsXX: closure_cut.csv & speed_cut.csv, dist/pemsXX: adj_1_miles.csv, adj_1.csv, adj.csv, to STGCN-WZ/data/PEMSXX
+
+run_pipeline.py
